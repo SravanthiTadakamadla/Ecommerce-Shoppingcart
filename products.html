@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script
+			src="https://kit.fontawesome.com/f1a2800127.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="bootstrap-4.3.1/css/bootstrap.min.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="style.css" />
+		<title>Ecommerce Website</title>
+		<style>
+			.navbar {
+				height: 5rem;
+				background: #fff;
+				box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+				position: sticky;
+				top: 0;
+				z-index: 10;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container-fluid myNav text-white text-center pt-1">
+			SALE IS NOW EXTENDED
+		</div>
+		<nav
+			class="container-fluid navbar navbar-expand-lg navbar-dark fixed-top"
+			style="display: inline-block"
+		>
+			<div class="container">
+				<a class="navbar-brand" href="index.html" style="color: #000"
+					><img
+						src="images/interiorDesigns/logo.jpg"
+						alt="logo"
+						style="width: 40px; margin-right: 5px"
+					/>ECOMMERCE WEBSITE</a
+				>
+				<div class="d-flex order-lg-1 ml-auto pr-2">
+					<div>
+						<a class="nav-link" href="#cart" style="color: #000"
+							><i class="fas fa-shopping-cart"
+								><span id="myCart" style="color: #000"></span></i
+						></a>
+					</div>
+				</div>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span
+						class="navbar-toggler-icon bg-dark"
+						style="border-radius: 2px"
+					></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html" style="color: #000">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="products.html" style="color: #000"
+								>Products</a
+							>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="lead text-center small" id="product-title">
+			<h3>PRODUCTS</h3>
+		</div>
+
+		<div
+			class="row d-flex flex-wrap mt-3 justify-content-around cart-items"
+			id="cart-item"
+			style="margin-bottom: 20px"
+		></div>
+
+		<section>
+			<div id="cart" class ="container m-auto cartDisplay row">
+					<div>
+							<h2>CART</h2>
+					</div>
+					<table class="table table-striped mt-5 font-weight-lighter small text-center align-content-center">
+							<thead>
+									<tr>
+											<th>Image</th>
+											<th>Item</th>
+											<th>Price</th>
+											<th>Quantity</th>
+											<th>Total</th>
+									</tr>
+							</thead>
+							<tbody class="cartDisplayItems">
+							</tbody>
+
+					</table>
+			<div class="mb-4 clearAll">
+					<button class="btn btn-primary btn-md mr-2 mt-1 button-clear" id="clearAll">Clear All</button> <span class="font-weight-light" id="totalCount">Total : <span id="totalAmount">$ 0</span></span>
+			</div>
+			</div>
+			</div>
+	</section>
+
+		<script src="products.js" async></script>
+	</body>
+</html>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script
+		src="https://kit.fontawesome.com/f1a2800127.js"
+		crossorigin="anonymous"
+	></script>
+	<link rel="stylesheet" href="bootstrap-4.3.1/css/bootstrap.min.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <style>
+        .navbar {
+	height: 5rem;
+	background: #fff;
+	box-shadow: 2px 1px 6px #555;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+    </style>
+</head>
+<body>
+    <div class="container-fluid myNav text-white text-center pt-1">SALE IS NOW EXTENDED</div>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" style="color:#000;"><img src="images/interiorDesigns/3f3dd9219f7bb1c9617cf4f154b70383.jpg" alt="logo" style="width:40px;margin-right:5px;">ECOMMERCE WEBSITE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="index.html" style="color:#000;">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="products.html" style="color:#000;">Products</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#cart" style="color:#000;"><i class="fas fa-shopping-cart"><span id="myCart" style="color:#000;"></span></i></a>
+            </li>
+        </div>
+    </div>
+    </nav>
+        <div class="lead text-center small" id="product-title">
+            <h3>PRODUCTS</h3>
+        </div>
+
+        <div class="row d-flex flex-wrap mt-3 justify-content-around cart-items" id="cart-item" style="margin-bottom:20px;">
+            
+    
+        </div>
+
+    
+        <section>
+            <div id="cart" class ="container m-auto cartDisplay row"
+                style="margin-bottom:2em;display:flex;align-items:center;justify-content:center;font-weight:bold;font-size:50px;color:rgb(2, 18, 31);">
+                <div>
+                    <h2>CART</h2>
+                </div>
+                <table class="table table-striped mt-5 font-weight-lighter small text-center align-content-center">
+                    <thead>
+                        <tr>
+                            <th>Image</th>
+                            <th>Item</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody class="cartDisplayItems">
+                    </tbody>
+    
+                </table>
+            <div class="mb-4 clearAll">
+                <button class="btn btn-primary btn-md mr-2 mt-1 button-clear" id="clearAll">Clear All</button> <span class="font-weight-light" id="totalCount">Total : <span id="totalAmount">$ 0</span></span>
+            </div>
+            </div>
+            </div>
+        </section>
+        <script src="products.js" async></script>
+</body>
+</html> -->

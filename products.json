@@ -1,0 +1,85 @@
+{
+	"products": [
+		{
+			"properties": {
+				"title": "Spandex Jacquard",
+				"percentageOff": "15%",
+				"strikedPrice": "52000",
+				"price": "",
+				"image": {
+					"file": {
+						"url": "images/interiorDesigns/product1.jpg"
+					}
+				},
+				"button": "Add To Cart"
+			}
+		},
+
+		{
+			"properties": {
+				"title": "PureFit Stretch Sofa",
+				"percentageOff": "25%",
+				"strikedPrice": "82595",
+				"price": "",
+				"image": {
+					"file": { "url": "images/interiorDesigns/product2.jpg" }
+				},
+				"button": "Add To Cart"
+			}
+		},
+
+		{
+			"properties": {
+				"title": "Sectional Couch Covers",
+				"percentageOff": "20%",
+				"strikedPrice": "54000",
+				"price": "",
+				"image": {
+					"file": {
+						"url": "images/interiorDesigns/product3.jpg"
+					}
+				},
+				"button": "Add To Cart"
+			}
+		},
+
+		{
+			"properties": {
+				"title": "Quilted Sectional Couch",
+				"percentageOff": "15%",
+				"strikedPrice": "86000",
+				"price": "",
+				"image": { "file": { "url": "images/interiorDesigns/product4.jpg" } },
+				"button": "Add To Cart"
+			}
+		},
+
+		{
+			"properties": {
+				"title": "Cotton Karlstad Corner",
+				"percentageOff": "18%",
+				"strikedPrice": "55880",
+				"price": "",
+				"image": {
+					"file": { "url": "images/interiorDesigns/product5.jpg" }
+				},
+				"button": "Add To Cart"
+			}
+		},
+
+		{
+			"properties": {
+				"title": "Stretch Sectional Couch",
+				"percentageOff": "30%",
+				"strikedPrice": "68950",
+				"price": "",
+				"image": {
+					"file": {
+						"url": "images/interiorDesigns/product6.jpg"
+					}
+				},
+				"button": "Add To Cart"
+			}
+		}
+	]
+}
